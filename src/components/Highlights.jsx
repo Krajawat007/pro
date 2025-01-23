@@ -4,7 +4,7 @@ export default function Highlights({ weather }) {
   return (
     <>
       <div className='bg-slate-600 text-white pt-3 flex flex-col justify-start items-center w-72'>
-        <h2 className='text-[30px]'>Wind status   okoko</h2>
+        <h2 className='text-[30px]'>Wind status</h2>
         <div className='my-2'>
           <span className='text-4xl font-bold'>
             {weather.wind ? weather.wind.speed : 'N/A'}
